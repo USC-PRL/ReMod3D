@@ -1,0 +1,228 @@
+Begin Object Class=ParticleSystem Name="P_Sparks_GPU"
+   Begin Object Class=Texture2D Name="ThumbnailTexture"
+      Begin Object Class=AssetImportData Name="AssetImportData"
+      End Object
+   End Object
+   Begin Object Class=ParticleModuleVectorFieldRotationRate Name="ParticleModuleVectorFieldRotationRate_0"
+   End Object
+   Begin Object Class=ParticleModuleVectorFieldLocal Name="ParticleModuleVectorFieldLocal_0"
+   End Object
+   Begin Object Class=ParticleModuleTypeDataGpu Name="ParticleModuleTypeDataGpu_0"
+   End Object
+   Begin Object Class=ParticleModuleSizeScaleBySpeed Name="ParticleModuleSizeScaleBySpeed_0"
+   End Object
+   Begin Object Class=ParticleModuleAccelerationConstant Name="ParticleModuleAccelerationConstant_0"
+   End Object
+   Begin Object Class=ParticleSpriteEmitter Name="ParticleSpriteEmitter_0"
+      Begin Object Class=ParticleLODLevel Name="ParticleLODLevel_0"
+      End Object
+   End Object
+   Begin Object Class=InterpCurveEdSetup Name="InterpCurveEdSetup_0"
+   End Object
+   Begin Object Class=ParticleModuleSize Name="ParticleModuleSize_0"
+      Begin Object Class=DistributionVectorUniform Name="DistributionStartSize"
+      End Object
+   End Object
+   Begin Object Class=ParticleModuleVelocity Name="ParticleModuleVelocity_0"
+      Begin Object Class=DistributionVectorUniform Name="DistributionStartVelocity"
+      End Object
+      Begin Object Class=DistributionFloatUniform Name="DistributionStartVelocityRadial"
+      End Object
+   End Object
+   Begin Object Class=ParticleModuleLifetime Name="ParticleModuleLifetime_0"
+      Begin Object Class=DistributionFloatUniform Name="DistributionLifetime"
+      End Object
+   End Object
+   Begin Object Class=ParticleModuleColorOverLife Name="ParticleModuleColorOverLife_0"
+      Begin Object Class=DistributionVectorConstant Name="DistributionVectorConstant_0"
+      End Object
+      Begin Object Class=DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+   End Object
+   Begin Object Class=ParticleModuleSpawn Name="ParticleModuleSpawn_0"
+      Begin Object Class=DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+      Begin Object Class=DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Class=DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+   End Object
+   Begin Object Class=ParticleModuleRequired Name="ParticleModuleRequired_0"
+      Begin Object Class=DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=ParticleModuleCollisionGPU Name="ParticleModuleCollisionGPU_0"
+      Begin Object Class=DistributionFloatConstant Name="ResilienceScaleOverLifeDistribution"
+      End Object
+      Begin Object Class=DistributionFloatConstant Name="ResilienceDistribution"
+      End Object
+   End Object
+   Begin Object Name="ThumbnailTexture"
+      Begin Object Name="AssetImportData"
+      End Object
+      ImportedSize=(X=512,Y=512)
+      Source=(Id=286B46C6428797A6FFFD70BFFBE517BA,SizeX=512,SizeY=512,NumSlices=1,NumMips=1,bPNGCompressed=True,Format=TSF_BGRA8)
+      LightingGuid=FE82143D419FC76819C2F88E4495A211
+      AssetImportData=AssetImportData'AssetImportData'
+      CompressionNoAlpha=True
+      bUseLegacyGamma=True
+   End Object
+   Begin Object Name="ParticleModuleVectorFieldRotationRate_0"
+      RotationRate=(X=0.100000,Y=0.000000,Z=0.070000)
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=149,R=188,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVectorFieldLocal_0"
+      VectorField=VectorFieldStatic'/Game/ExampleContent/Effects/VectorFields/vel_219.vel_219'
+      RelativeScale3D=(X=30.000000,Y=30.000000,Z=30.000000)
+      Intensity=125.000000
+      Tightness=0.200000
+      LODValidity=1
+      ModuleEditorColor=(B=74,G=224,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleTypeDataGpu_0"
+      bClearExistingParticlesOnInit=True
+      LODValidity=1
+      ModuleEditorColor=(B=70,G=0,R=225,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSizeScaleBySpeed_0"
+      SpeedScale=(X=0.000000,Y=3.000000)
+      MaxScale=(X=3.000000,Y=3.000000)
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=229,R=50,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAccelerationConstant_0"
+      Acceleration=(X=0.000000,Y=0.000000,Z=-980.000000)
+      bAlwaysInWorldSpace=True
+      LODValidity=1
+      ModuleEditorColor=(B=109,G=212,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_0"
+      Begin Object Name="ParticleLODLevel_0"
+         RequiredModule=ParticleModuleRequired'P_Sparks_GPU:ParticleModuleRequired_0'
+         Modules(0)=ParticleModuleLifetime'P_Sparks_GPU:ParticleModuleLifetime_0'
+         Modules(1)=ParticleModuleSize'P_Sparks_GPU:ParticleModuleSize_0'
+         Modules(2)=ParticleModuleVelocity'P_Sparks_GPU:ParticleModuleVelocity_0'
+         Modules(3)=ParticleModuleColorOverLife'P_Sparks_GPU:ParticleModuleColorOverLife_0'
+         Modules(4)=ParticleModuleAccelerationConstant'P_Sparks_GPU:ParticleModuleAccelerationConstant_0'
+         Modules(5)=ParticleModuleSizeScaleBySpeed'P_Sparks_GPU:ParticleModuleSizeScaleBySpeed_0'
+         Modules(6)=ParticleModuleCollisionGPU'P_Sparks_GPU:ParticleModuleCollisionGPU_0'
+         Modules(7)=ParticleModuleVectorFieldLocal'P_Sparks_GPU:ParticleModuleVectorFieldLocal_0'
+         Modules(8)=ParticleModuleVectorFieldRotationRate'P_Sparks_GPU:ParticleModuleVectorFieldRotationRate_0'
+         TypeDataModule=ParticleModuleTypeDataGpu'P_Sparks_GPU:ParticleModuleTypeDataGpu_0'
+         Begin Object Name="ParticleModuleSpawn_0"
+            Begin Object Name="RequiredDistributionSpawnRateScale"
+               Constant=1.000000
+            End Object
+            Begin Object Name="RequiredDistributionSpawnRate"
+               Constant=2000.000000
+            End Object
+            Begin Object Name="BurstScaleDistribution"
+               Constant=1.000000
+            End Object
+            Rate=(MinValue=2000.000000,MaxValue=2000.000000,Distribution=DistributionFloatConstant'RequiredDistributionSpawnRate',Table=(Op=1,EntryCount=1,EntryStride=1,Values=(2000.000000)))
+            RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'RequiredDistributionSpawnRateScale',Table=(Op=1,EntryCount=1,EntryStride=1,Values=(1.000000)))
+            BurstScale=(Distribution=DistributionFloatConstant'BurstScaleDistribution')
+            LODValidity=1
+            ModuleEditorColor=(B=222,G=0,R=84,A=255)
+         End Object
+         SpawnModule=ParticleModuleSpawn'P_Sparks_GPU:ParticleModuleSpawn_0'
+         PeakActiveParticles=14064
+      End Object
+      EmitterEditorColor=(B=0,G=109,R=212,A=255)
+      LODLevels(0)=ParticleLODLevel'ParticleLODLevel_0'
+   End Object
+   Begin Object Name="InterpCurveEdSetup_0"
+      Tabs(0)=(Curves=((CurveObject=DistributionVectorConstant'P_Sparks_GPU:ParticleModuleColorOverLife_0.DistributionVectorConstant_0',CurveColor=(B=169,G=171,R=0,A=255),CurveName="ColorOverLife",bColorCurve=1,bFloatingPointColorCurve=1),(CurveObject=DistributionFloatConstantCurve'P_Sparks_GPU:ParticleModuleColorOverLife_0.DistributionFloatConstantCurve_0',CurveColor=(B=169,G=171,R=0,A=255),CurveName="AlphaOverLife",bHideCurve=1,bColorCurve=1,bFloatingPointColorCurve=1,bClamp=1,ClampHigh=1.000000)),ViewStartInput=-0.084166,ViewEndInput=1.067834,ViewStartOutput=-0.299600,ViewEndOutput=21.588400)
+   End Object
+   Begin Object Name="ParticleModuleSize_0"
+      Begin Object Name="DistributionStartSize"
+         Max=(X=6.000000,Y=6.000000,Z=6.000000)
+         Min=(X=4.000000,Y=4.000000,Z=4.000000)
+         bIsDirty=False
+      End Object
+      StartSize=(MinValue=4.000000,MaxValue=6.000000,Distribution=DistributionVectorUniform'DistributionStartSize',Table=(Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3,Values=(4.000000,4.000000,4.000000,6.000000,6.000000,6.000000)))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=213,R=105,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVelocity_0"
+      Begin Object Name="DistributionStartVelocity"
+         Max=(X=200.000000,Y=20.000000,Z=20.000000)
+         Min=(X=100.000000,Y=-20.000000,Z=-20.000000)
+         bIsDirty=False
+      End Object
+      Begin Object Name="DistributionStartVelocityRadial"
+      End Object
+      StartVelocity=(MinValue=-20.000000,MaxValue=200.000000,Distribution=DistributionVectorUniform'DistributionStartVelocity',Table=(Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3,Values=(100.000000,-20.000000,-20.000000,200.000000,20.000000,20.000000)))
+      StartVelocityRadial=(Distribution=DistributionFloatUniform'DistributionStartVelocityRadial',Table=(Op=1,EntryCount=1,EntryStride=1,Values=(0.000000)))
+      LODValidity=1
+      ModuleEditorColor=(B=92,G=218,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_0"
+      Begin Object Name="DistributionLifetime"
+         Min=5.000000
+         Max=7.000000
+      End Object
+      Lifetime=(MinValue=5.000000,MaxValue=7.000000,Distribution=DistributionFloatUniform'DistributionLifetime',Table=(Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1,Values=(5.000000,7.000000)))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=79,R=222,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorOverLife_0"
+      Begin Object Name="DistributionVectorConstant_0"
+         Constant=(X=1.000000,Y=5.000000,Z=1.000000)
+      End Object
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=1.000000),(InVal=1.000000)))
+      End Object
+      ColorOverLife=(MinValue=1.000000,MaxValue=20.000000,Distribution=DistributionVectorConstant'DistributionVectorConstant_0',Table=(Op=1,EntryCount=2,EntryStride=3,TimeScale=1.000000,Values=(20.000000,7.000000,1.000000,1.000000,10.000000,20.000000)))
+      AlphaOverLife=(MaxValue=1.000000,Distribution=DistributionFloatConstantCurve'DistributionFloatConstantCurve_0',Table=(Op=1,EntryCount=2,EntryStride=1,TimeScale=1.000000,Values=(1.000000,0.000000)))
+      LODValidity=1
+      ModuleEditorColor=(B=169,G=171,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_0"
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRate"
+         Constant=2000.000000
+      End Object
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+      End Object
+      Rate=(MinValue=2000.000000,MaxValue=2000.000000,Distribution=DistributionFloatConstant'RequiredDistributionSpawnRate',Table=(Op=1,EntryCount=1,EntryStride=1,Values=(2000.000000)))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'RequiredDistributionSpawnRateScale',Table=(Op=1,EntryCount=1,EntryStride=1,Values=(1.000000)))
+      BurstScale=(Distribution=DistributionFloatConstant'BurstScaleDistribution')
+      LODValidity=1
+      ModuleEditorColor=(B=222,G=0,R=84,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_0"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=Material'/Game/MyParticleSystems/Sprite/Mat_Sparks.Mat_Sparks'
+      ScreenAlignment=PSA_Velocity
+      bUseLegacyEmitterTime=False
+      SpawnRate=(Distribution=DistributionFloatConstant'RequiredDistributionSpawnRate')
+      RandomImageTime=1.000000
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=216,R=99,A=255)
+   End Object
+   Begin Object Name="ParticleModuleCollisionGPU_0"
+      Begin Object Name="ResilienceScaleOverLifeDistribution"
+         Constant=1.000000
+      End Object
+      Begin Object Name="ResilienceDistribution"
+         Constant=0.250000
+      End Object
+      Resilience=(Distribution=DistributionFloatConstant'ResilienceDistribution')
+      ResilienceScaleOverLife=(Distribution=DistributionFloatConstant'ResilienceScaleOverLifeDistribution')
+      LODValidity=1
+      ModuleEditorColor=(B=213,G=0,R=109,A=255)
+   End Object
+   Emitters(0)=ParticleSpriteEmitter'ParticleSpriteEmitter_0'
+   CurveEdSetup=InterpCurveEdSetup'InterpCurveEdSetup_0'
+   LODDistances(0)=0.000000
+   bUseFixedRelativeBoundingBox=True
+   FixedRelativeBoundingBox=(Min=(X=-1025.967896,Y=-1116.198975,Z=-15663.026367),Max=(X=492.254395,Y=1598.470947,Z=1015.393555),IsValid=1)
+   bShouldResetPeakCounts=True
+   ThumbnailImage=Texture2D'ThumbnailTexture'
+End Object
