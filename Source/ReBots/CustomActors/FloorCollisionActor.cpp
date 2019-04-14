@@ -29,7 +29,7 @@ void AFloorCollisionActor::Init() {
     BoxComponent->bIsActive = true;
     BoxComponent->SetVisibility(true);
     BoxComponent->bMultiBodyOverlap = true;
-    BoxComponent->bGenerateOverlapEvents = true;
+    BoxComponent->SetGenerateOverlapEvents(true);
     BoxComponent->SetSimulatePhysics(false);
     BoxComponent->SetMobility(EComponentMobility::Movable);
     BoxComponent->SetBoxExtent(FVector(500,500,7));

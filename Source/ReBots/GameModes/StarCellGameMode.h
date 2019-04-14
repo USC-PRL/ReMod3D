@@ -5,7 +5,7 @@
 #include "GameFramework/GameMode.h"
 #include "Framework/Message.h"
 #include "Framework/RangedMessage.h"
-#include "SuperBot/SuperbotModule.h"
+#include "SuperBot/SuperBotModule.h"
 #include "Framework/ModuleDock.h"
 #include "Framework/ConstraintMonitor.h"
 #include "CustomActors/FloorCollisionActor.h"
