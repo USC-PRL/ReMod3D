@@ -2,7 +2,6 @@
 
  
 #include "FBBPSOWorker.h"
-#include "Runtime/Core/Public/Lumin/LuminPlatformProcess.h"
 
 //***********************************************************
 //Thread Worker Starts as NULL, prior to being instanced
