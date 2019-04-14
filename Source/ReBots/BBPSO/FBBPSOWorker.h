@@ -7,6 +7,8 @@
 #include <iostream>
 #include <ctime>
 #include "BranchBoundPSO.h"
+#include "Runtime/Core/Public/HAL/RunnableThread.h"
+#include "Runtime/Core/Public/HAL/Runnable.h"
 typedef std::chrono::high_resolution_clock Clock;
 using namespace std;
 /**

@@ -210,16 +210,16 @@ void ASuperBotModule::SetDockEngagedToGround(ModuleDockFace d, bool de) {
 * @param c color to set
 */
 void ASuperBotModule::SetModuleColor(SuperBotColor C) {
-	MasterInner->SetMaterial(0, BlueMaterial);
-	SlaveInner->SetMaterial(0, BlueMaterial);
-	MasterOuter->SetMaterial(0, BlueMaterial);
-	SlaveOuter->SetMaterial(0, BlueMaterial);
-	FrontDock->SetMaterial(0, BlueMaterial);
-	BackDock->SetMaterial(0, BlueMaterial);
-	LeftDock->SetMaterial(0, BlueMaterial);
-	RightDock->SetMaterial(0, BlueMaterial);
-	UpDock->SetMaterial(0, BlueMaterial);
-	DownDock->SetMaterial(0, BlueMaterial);
+	MasterInner->SetMaterial(0, BlueMaterialInterface);
+	SlaveInner->SetMaterial(0, BlueMaterialInterface);
+	MasterOuter->SetMaterial(0, BlueMaterialInterface);
+	SlaveOuter->SetMaterial(0, BlueMaterialInterface);
+	FrontDock->SetMaterial(0, BlueMaterialInterface);
+	BackDock->SetMaterial(0, BlueMaterialInterface);
+	LeftDock->SetMaterial(0, BlueMaterialInterface);
+	RightDock->SetMaterial(0, BlueMaterialInterface);
+	UpDock->SetMaterial(0, BlueMaterialInterface);
+	DownDock->SetMaterial(0, BlueMaterialInterface);
 }
 
 /**
@@ -376,6 +376,7 @@ void ASuperBotModule::InitModule() {
 	UpDock->BodyInstance.SetCollisionProfileName(UCollisionProfile::PhysicsActor_ProfileName);
 	DownDock->BodyInstance.SetCollisionProfileName(UCollisionProfile::PhysicsActor_ProfileName);
 
+	BlueMaterialInterface = UMaterialInstanceDynamic::Create(BMaterial.Object, BMaterial.Object);
 
 	MasterInner->SetMaterial(0, GreenMaterial);
 	SlaveInner->SetMaterial(0, RedMaterial);
