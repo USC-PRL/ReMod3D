@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ReBots (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ReBots Linux Debug Build",
+			"program": "/home/tj/projects/ReMod3D/Binaries/Linux/ReBots-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/tj/projects/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ReBots (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ReBots Linux DebugGame Build",
+			"program": "/home/tj/projects/ReMod3D/Binaries/Linux/ReBots-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/tj/projects/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ReBots (Development)",
+			"request": "launch",
+			"preLaunchTask": "ReBots Linux Development Build",
+			"program": "/home/tj/projects/ReMod3D/Binaries/Linux/ReBots",
+			"args": [
+			],
+			"cwd": "/home/tj/projects/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ReBots (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ReBots Linux Shipping Build",
+			"program": "/home/tj/projects/ReMod3D/Binaries/Linux/ReBots-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/tj/projects/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ReBots (Test)",
+			"request": "launch",
+			"preLaunchTask": "ReBots Linux Test Build",
+			"program": "/home/tj/projects/ReMod3D/Binaries/Linux/ReBots-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/tj/projects/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ReBotsEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ReBotsEditor Linux Debug Build",
+			"program": "/home/tj/projects/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/tj/projects/ReMod3D/ReBots.uproject"
+			],
+			"cwd": "/home/tj/projects/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ReBotsEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ReBotsEditor Linux DebugGame Build",
+			"program": "/home/tj/projects/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/tj/projects/ReMod3D/ReBots.uproject"
+			],
+			"cwd": "/home/tj/projects/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "ReBotsEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ReBotsEditor Linux Development Build",
+			"program": "/home/tj/projects/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/tj/projects/ReMod3D/ReBots.uproject"
+			],
+			"cwd": "/home/tj/projects/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/tj/projects/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/tj/projects/ReMod3D/ReBots.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/tj/projects/UnrealEngine"
+		}
+	]
+}

@@ -5,6 +5,8 @@
 #include "Runtime/Engine/Private/PhysicsEngine/PhysXSupport.h"
 #include "Runtime/Engine/Classes/Components/TextRenderComponent.h"
 #include "Runtime/Engine/Classes/Components/ArrowComponent.h"
+#include "Runtime/Engine/Classes/Components/StaticMeshComponent.h"
+#include "Runtime/Engine/Classes/Materials/MaterialInstanceDynamic.h"
 #include <sstream>
 #include <iostream>
 #include <functional>
@@ -271,6 +273,7 @@ public:
     ModuleModel model; /**< SuperBot module model of the world */
     UMaterial *BlueTransMaterial; /**< blue trans material */
 	UMaterial* BlueMaterial = NULL; /**< blue material */
+    UMaterialInterface* BlueMaterialInterface = NULL; /**< blue material interface */
 	/**
 	* @brief get number of connectors
 	* @return number of connectors

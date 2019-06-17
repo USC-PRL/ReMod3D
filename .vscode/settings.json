@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"/home/tj/projects/ReMod3D/.git": true,
+		"/home/tj/projects/ReMod3D/.vscode": true,
+		"/home/tj/projects/ReMod3D/Content": true,
+		"/home/tj/projects/ReMod3D/DerivedDataCache": true,
+		"/home/tj/projects/ReMod3D/Intermediate": true,
+		"/home/tj/projects/ReMod3D/Saved": true
+	},
+	"C_Cpp.errorSquiggles": "Disabled"
+}

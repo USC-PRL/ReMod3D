@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ReBots Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Mac",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"IOS",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"HTML5",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"Linux",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Shipping",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBots TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBots TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBots",
+				"TVOS",
+				"Test",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Linux",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Linux",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBotsEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Linux",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Linux",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Linux",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBotsEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Linux",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Linux",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Linux",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBotsEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Linux",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Mac",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Mac",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBotsEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Mac",
+				"Debug",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Mac",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Mac",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBotsEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Mac",
+				"DebugGame",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Mac",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Mac",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ReBotsEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		},
+		{
+			"label": "ReBotsEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"ReBotsEditor",
+				"Mac",
+				"Development",
+				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/tj/projects/UnrealEngine"
+			}
+		}
+	]
+}

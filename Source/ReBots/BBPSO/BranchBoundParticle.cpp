@@ -2,6 +2,7 @@
 
  
 #include "BranchBoundParticle.h"
+#include <math.h>
 
 /**
  * @brief constructor

@@ -2,7 +2,7 @@
 #include "Framework/KinematicGraph.h"
 #include "Framework/KinematicsMessage.h"
 #include "Framework/RobotModuleBehavior.h"
-#include "SuperBot/SuperBotKinematics.h"
+#include "SuperBot/SuperbotKinematics.h"
 #include "Framework/ModuleTree.h"
 #include <vector>
 #include "Framework/ModuleModel.h"
