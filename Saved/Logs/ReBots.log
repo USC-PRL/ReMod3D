@@ -1053,3 +1053,17 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.06.25-05.46.12:418][830]LogEditorViewport: Clicking on Actor (LMB): SuperBotModule (SuperBotModule4)
 [2019.06.25-05.46.13:697][912]LogSlate: Took 0.006047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
 [2019.06.25-05.46.13:712][912]LogLinux: Setting swap interval to 'Immediate'
+[2019.06.25-05.55.56:207][985]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.06.25-05.55.56:207][985]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.06.25-05.55.56:207][985]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.06.25-05.55.56:229][985]LogSlate: Took 0.000060 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.25-05.55.56:265][986]LogLinux: Setting swap interval to 'Immediate'
+[2019.06.25-05.56.04:877][651]LogLinux: Scale at X=65.000000, Y=24.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.06.25-05.56.04:877][651]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.06.25-05.56.04:895][651]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.06.25-05.56.04:914][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.25-05.56.04:942][651]LogLinux: Setting swap interval to 'Immediate'
+[2019.06.25-05.56.04:980][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2019.06.25-05.56.05:105][651]LogSavePackage: Moving '../../../../Documents/Unreal Projects/ReMod3D/Saved/CaterpillarTest_Auto1122836C508D6F8F7233030484BD884B6.tmp' to '../../../../Documents/Unreal Projects/ReMod3D/Saved/Autosaves/Game/Maps/CaterpillarTest_Auto1.umap'
+[2019.06.25-05.56.05:107][651]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/CaterpillarTest' took 0.149
+[2019.06.25-05.56.05:107][651]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.149
