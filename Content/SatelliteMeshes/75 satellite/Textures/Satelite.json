@@ -1,0 +1,43 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "height_force": 1
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "Antenna": {
+            "shader": "Main shader"
+        },
+        "Couro": {
+            "shader": "Main shader"
+        },
+        "Pinos": {
+            "shader": "Main shader"
+        },
+        "Placas": {
+            "shader": "Main shader"
+        },
+        "Satélite": {
+            "shader": "Main shader"
+        }
+    }
+}
