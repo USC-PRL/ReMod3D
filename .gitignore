@@ -1,0 +1,2 @@
+# Ignore folder "Content/StarterContent/" for obvious reasons and it contains big files (100MB+)
+Content/StarterContent/
