@@ -9,13 +9,13 @@
 				"ReBots",
 				"Mac",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 				"ReBots",
 				"Mac",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -35,7 +35,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -46,14 +46,14 @@
 				"ReBots",
 				"Mac",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -64,13 +64,13 @@
 				"ReBots",
 				"Mac",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -81,7 +81,7 @@
 				"ReBots",
 				"Mac",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -90,7 +90,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -101,14 +101,14 @@
 				"ReBots",
 				"Mac",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -119,13 +119,13 @@
 				"ReBots",
 				"Mac",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -136,7 +136,7 @@
 				"ReBots",
 				"Mac",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -145,7 +145,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -156,14 +156,14 @@
 				"ReBots",
 				"Mac",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -174,13 +174,13 @@
 				"ReBots",
 				"Mac",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -191,7 +191,7 @@
 				"ReBots",
 				"Mac",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -200,7 +200,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -211,14 +211,14 @@
 				"ReBots",
 				"Mac",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -229,13 +229,13 @@
 				"ReBots",
 				"Mac",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -246,7 +246,7 @@
 				"ReBots",
 				"Mac",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -255,7 +255,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -266,14 +266,14 @@
 				"ReBots",
 				"Mac",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -284,13 +284,13 @@
 				"ReBots",
 				"IOS",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -301,7 +301,7 @@
 				"ReBots",
 				"IOS",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -310,7 +310,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -321,14 +321,14 @@
 				"ReBots",
 				"IOS",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -339,13 +339,13 @@
 				"ReBots",
 				"IOS",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -356,7 +356,7 @@
 				"ReBots",
 				"IOS",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -365,7 +365,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -376,14 +376,14 @@
 				"ReBots",
 				"IOS",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -394,13 +394,13 @@
 				"ReBots",
 				"IOS",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -411,7 +411,7 @@
 				"ReBots",
 				"IOS",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -420,7 +420,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -431,14 +431,14 @@
 				"ReBots",
 				"IOS",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -449,13 +449,13 @@
 				"ReBots",
 				"IOS",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -466,7 +466,7 @@
 				"ReBots",
 				"IOS",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -475,7 +475,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -486,14 +486,14 @@
 				"ReBots",
 				"IOS",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -504,13 +504,13 @@
 				"ReBots",
 				"IOS",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -521,7 +521,7 @@
 				"ReBots",
 				"IOS",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -530,7 +530,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -541,14 +541,14 @@
 				"ReBots",
 				"IOS",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -559,13 +559,13 @@
 				"ReBots",
 				"HTML5",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -576,7 +576,7 @@
 				"ReBots",
 				"HTML5",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -585,7 +585,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -596,14 +596,14 @@
 				"ReBots",
 				"HTML5",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -614,13 +614,13 @@
 				"ReBots",
 				"HTML5",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -631,7 +631,7 @@
 				"ReBots",
 				"HTML5",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -640,7 +640,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -651,14 +651,14 @@
 				"ReBots",
 				"HTML5",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -669,13 +669,13 @@
 				"ReBots",
 				"HTML5",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -686,7 +686,7 @@
 				"ReBots",
 				"HTML5",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -695,7 +695,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -706,14 +706,14 @@
 				"ReBots",
 				"HTML5",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -724,13 +724,13 @@
 				"ReBots",
 				"HTML5",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -741,7 +741,7 @@
 				"ReBots",
 				"HTML5",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -750,7 +750,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -761,14 +761,14 @@
 				"ReBots",
 				"HTML5",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -779,13 +779,13 @@
 				"ReBots",
 				"HTML5",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -796,7 +796,7 @@
 				"ReBots",
 				"HTML5",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -805,7 +805,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -816,14 +816,14 @@
 				"ReBots",
 				"HTML5",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -834,13 +834,13 @@
 				"ReBots",
 				"Linux",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -851,7 +851,7 @@
 				"ReBots",
 				"Linux",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -860,7 +860,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -871,14 +871,14 @@
 				"ReBots",
 				"Linux",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -889,13 +889,13 @@
 				"ReBots",
 				"Linux",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -906,7 +906,7 @@
 				"ReBots",
 				"Linux",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -915,7 +915,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -926,14 +926,14 @@
 				"ReBots",
 				"Linux",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -944,13 +944,13 @@
 				"ReBots",
 				"Linux",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -961,7 +961,7 @@
 				"ReBots",
 				"Linux",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -970,7 +970,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -981,14 +981,14 @@
 				"ReBots",
 				"Linux",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -999,13 +999,13 @@
 				"ReBots",
 				"Linux",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1016,7 +1016,7 @@
 				"ReBots",
 				"Linux",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1025,7 +1025,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1036,14 +1036,14 @@
 				"ReBots",
 				"Linux",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1054,13 +1054,13 @@
 				"ReBots",
 				"Linux",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1071,7 +1071,7 @@
 				"ReBots",
 				"Linux",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1080,7 +1080,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1091,14 +1091,14 @@
 				"ReBots",
 				"Linux",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1109,13 +1109,13 @@
 				"ReBots",
 				"TVOS",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1126,7 +1126,7 @@
 				"ReBots",
 				"TVOS",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1135,7 +1135,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1146,14 +1146,14 @@
 				"ReBots",
 				"TVOS",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1164,13 +1164,13 @@
 				"ReBots",
 				"TVOS",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1181,7 +1181,7 @@
 				"ReBots",
 				"TVOS",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1190,7 +1190,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1201,14 +1201,14 @@
 				"ReBots",
 				"TVOS",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1219,13 +1219,13 @@
 				"ReBots",
 				"TVOS",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1236,7 +1236,7 @@
 				"ReBots",
 				"TVOS",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1245,7 +1245,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1256,14 +1256,14 @@
 				"ReBots",
 				"TVOS",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1274,13 +1274,13 @@
 				"ReBots",
 				"TVOS",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1291,7 +1291,7 @@
 				"ReBots",
 				"TVOS",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1300,7 +1300,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1311,14 +1311,14 @@
 				"ReBots",
 				"TVOS",
 				"Shipping",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1329,13 +1329,13 @@
 				"ReBots",
 				"TVOS",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1346,7 +1346,7 @@
 				"ReBots",
 				"TVOS",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1355,7 +1355,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1366,14 +1366,14 @@
 				"ReBots",
 				"TVOS",
 				"Test",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1384,13 +1384,13 @@
 				"ReBotsEditor",
 				"Linux",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1401,7 +1401,7 @@
 				"ReBotsEditor",
 				"Linux",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1410,7 +1410,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1421,14 +1421,14 @@
 				"ReBotsEditor",
 				"Linux",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1439,13 +1439,13 @@
 				"ReBotsEditor",
 				"Linux",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1456,7 +1456,7 @@
 				"ReBotsEditor",
 				"Linux",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1465,7 +1465,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1476,14 +1476,14 @@
 				"ReBotsEditor",
 				"Linux",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1494,13 +1494,13 @@
 				"ReBotsEditor",
 				"Linux",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1511,7 +1511,7 @@
 				"ReBotsEditor",
 				"Linux",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1520,7 +1520,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1531,14 +1531,14 @@
 				"ReBotsEditor",
 				"Linux",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1549,13 +1549,13 @@
 				"ReBotsEditor",
 				"Mac",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1566,7 +1566,7 @@
 				"ReBotsEditor",
 				"Mac",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1575,7 +1575,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1586,14 +1586,14 @@
 				"ReBotsEditor",
 				"Mac",
 				"Debug",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1604,13 +1604,13 @@
 				"ReBotsEditor",
 				"Mac",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1621,7 +1621,7 @@
 				"ReBotsEditor",
 				"Mac",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1630,7 +1630,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1641,14 +1641,14 @@
 				"ReBotsEditor",
 				"Mac",
 				"DebugGame",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1659,13 +1659,13 @@
 				"ReBotsEditor",
 				"Mac",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1676,7 +1676,7 @@
 				"ReBotsEditor",
 				"Mac",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -1685,7 +1685,7 @@
 			],
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		},
 		{
@@ -1696,14 +1696,14 @@
 				"ReBotsEditor",
 				"Mac",
 				"Development",
-				"/home/tj/projects/ReMod3D/ReBots.uproject",
+				"/home/afayed/Documents/Unreal Projects/ReMod3D/ReBots.uproject",
 				"-waitmutex",
 				"-clean"
 			],
 			"problemMatcher": "$msCompile",
 			"type": "shell",
 			"options": {
-				"cwd": "/home/tj/projects/UnrealEngine"
+				"cwd": "/home/afayed/UnrealEngine4.22"
 			}
 		}
 	]
